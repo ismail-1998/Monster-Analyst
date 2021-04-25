@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Monster Analyst</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to your " Monster Analyst "</h1>
+
+        <p id="result">
+            <span id="probab1"></span>
+            <span id="probab2"></span>
+            <span id="probab3"></span>
+            <span id="probab4"></span>
+        </p>
+
+        <img src="yourImg.png" id="imagePreview" alt="Image preview..." height="300" width="300">
+
+        <form>
+            <input type="text" id="image" placeholder="Enter image's URL">
+            <input type="submit" value=" Analyze It " onclick="imageRecognition()">
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
